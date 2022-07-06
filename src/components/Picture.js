@@ -14,7 +14,7 @@ const Picture = ({ url, id }) => {
       src={url}
       style={{
         width: "150px",
-        border: isDragging ? "3px solid yellow" : "0px",
+       opacity: isDragging? .5: 1,
       }}
     />
   );
